@@ -1,0 +1,98 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+body {
+  background-color: #115ff4;
+  font-family: "Optima", sans-serif;
+  text-transform: uppercase;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  text-shadow: gold 4px 4px 4px;
+}
+
+#jeopardy {
+  text-align: center;
+  font-size: 16px;
+  background-color: darkblue;
+  color: white;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+#jeopardy th,
+#jeopardy td {
+  border: solid 2px gold;
+  width: 6em;
+  padding: 0.5em;
+}
+
+#jeopardy td.disabled {
+  background-color: #28a200;
+}
+
+th {
+  font-weight: bold;
+  height: 4em;
+  text-shadow: white 1.75px 1.75px 1.75px;
+  color: gold;
+  font-size: 24px;
+  background-color: darkblue;
+}
+
+td {
+  height: 6em;
+  font-weight: bold;
+}
+
+button,
+td {
+  cursor: pointer;
+}
+
+.fa-question-circle {
+  pointer-events: none;
+}
+
+#start {
+  background-color: #8d2ab5;
+  padding: 1em 3em;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1em;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+#start:hover,
+#start.disabled {
+  background-color: #74119c;
+  box-shadow: 0 0 10px white;
+}
+
+.disabled,
+th {
+  cursor: not-allowed;
+}
+
+#spin-container {
+  font-size: 12em;
+  text-align: center;
+  color: white;
+  margin: 25px;
+  display: none;
+}
